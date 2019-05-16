@@ -1,1 +1,0 @@
-{"name":"scene","plural":"scenes","base":"PersistedModel","idInjection":true,"options":{"validateUpsert":true},"properties":{"id":{"type":"number","required":true},"name":{"type":"string"},"config":{"type":"object","required":true}},"validations":[],"relations":{},"acls":[],"methods":{}}
