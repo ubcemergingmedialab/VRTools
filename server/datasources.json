@@ -1,7 +1,12 @@
 {
   "heroku-db": {
-    "url": "${MONGODB_URI}",
-    "useNewUrlParser": true,
-    "connector": "mongodb"
+	"host":"ds221416.mlab.com",
+	"port":21416,
+	"url":"mongodb://heroku_0fkcxzlt:bp1tvi3u0ovsbgm3geslv2b4kb@ds221416.mlab.com:21416/heroku_0fkcxzlt",
+	"database":"heroku_0fkcxzlt",
+	"password":"bp1tvi3u0ovsbgm3geslv2b4kb",
+	"name":"heroku-db",
+	"user":"heroku_0fkcxzlt",
+	"connector":"mongodb"
   }
 }
