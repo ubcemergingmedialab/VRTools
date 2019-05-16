@@ -1,0 +1,26 @@
+{
+  "name": "tour",
+  "plural": "tours",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string"
+    },
+    "id": {
+      "type": "number",
+      "required": true
+    },
+    "startNode": {
+      "type": "object",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
